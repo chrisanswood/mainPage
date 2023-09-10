@@ -1,0 +1,42 @@
+:root {
+    --light-1: #fafafa;
+
+    --dark-1: #161616;
+    --dark-2: #1f1f1f;
+}
+
+body {
+    background: var(--dark-1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,
+span,
+figure {
+    display: block;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alignHorizon {
+    display: flex;
+    align-items: center;
+}
